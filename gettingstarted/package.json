@@ -1,0 +1,28 @@
+{
+  "name": "gettingstarted",
+  "version": "0.0.1",
+  "description": "Getting Started Tutorial",
+  "main": "web.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec tests.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaquindev/mongoose-experiments"
+  },
+  "keywords": [
+    "mongoose",
+    "getting",
+    "started"
+  ],
+  "author": "joaquindev",
+  "license": "BSD",
+  "dependencies": {
+    "mongoose": "~3.8.7"
+  },
+  "devDependencies": {
+    "istanbul": "~0.2.4",
+    "mocha": "~1.17.1",
+    "mocha-istanbul": "~0.2.0"
+  }
+}
